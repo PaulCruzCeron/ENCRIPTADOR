@@ -1,0 +1,137 @@
+header {
+    width: auto;
+    background: linear-gradient(to right, #FF6633, #FF9966, #FF6633);
+    color: #fff;
+    padding: 20px 10ox;
+    display: flex;
+    align-items: center;
+}
+
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.logo-container img {
+    max-width: 120px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #560d56;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-section h2, .right-section h2 {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.left-section .instruction, .right-section .instruction {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    word-spacing: 5px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+
+.message-container {
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 15%;
+}
+
+.message-input {
+    width: calc(100% - 40px);
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 25px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #FFCC99;
+    color: black;
+}
+
+.left-section {
+    background-image: url(Imagenes/backgroundseccion1.jpg);
+    background-position: center;
+}
+
+.right-section {
+    background-image: url(Imagenes/backgroundseccion2.png);
+    background-position: center;
+}
+
+
+
+
+footer {
+    text-align: center;
+    background-image: url(Imagenes/footer.jpg);
+    padding: 40px;
+}
+
+footer img {
+    max-width: 150px;
+    height: auto;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(255, 255, 0, 1);
+}
+
+.copyright {
+    font-size: 13px;
+    color: white;
+    padding: 25px;
+}
