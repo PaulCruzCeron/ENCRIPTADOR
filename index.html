@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Encriptador</title>
+    <link rel="stylesheet" href="reset.cssc">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo-container">
+            <img src="Imagenes/logo encriptador fondo transparente.png" alt="Logo principal de la empresa">
+        </div>
+        <h1>Encriptador de mensajes para amigos</h1>
+    </header>
+
+    <main class="container">
+          
+        <section class="left-section">
+                    
+            <h2>Mensaje</h2>
+            <p class="instruction">Escribe aquí el mensaje que deseas encriptar</p>
+                
+            <div class="message-container">
+                <textarea id="message-input-left" class="message-input" placeholder="Ingresa tu mensaje aquí"></textarea>
+                <button id="encrypt-button">Encriptar</button>
+            </div>
+
+        </section>
+            
+        <section class="right-section">
+
+            <h2>Encriptado</h2>
+            <p class="instruction">Aquí tienes el mensaje secreto</p>
+
+            <div class="message-container">
+                <textarea id="message-input-right" class="message-input" placeholder="Mensaje encriptado"></textarea>
+                <button id="decrypt-button">Desencriptar</button>
+                <button id="copy-button">Copiar</button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="Imagenes/logotipo.png" alt="Logo secundario de la empresa">
+        <p class="copyright">&copy Copyright Paul Cruz - 2024 </p>
+    </footer>
+    
+    <script src="encriptador.js"></script>
+
+</body>
+
+</html>
