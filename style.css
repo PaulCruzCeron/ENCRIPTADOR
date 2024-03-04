@@ -103,12 +103,12 @@ button:hover {
 }
 
 .left-section {
-    background-image: url(Imagenes/backgroundseccion1.jpg);
+    background-image: url(imagenes/backgroundseccion1.jpg);
     background-position: center;
 }
 
 .right-section {
-    background-image: url(Imagenes/backgroundseccion2.png);
+    background-image: url(imagenes/backgroundseccion2.png);
     background-position: center;
 }
 
@@ -117,7 +117,7 @@ button:hover {
 
 footer {
     text-align: center;
-    background-image: url(Imagenes/footer.jpg);
+    background-image: url(imagenes/footer.jpg);
     padding: 40px;
 }
 
